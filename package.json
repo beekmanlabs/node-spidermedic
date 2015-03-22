@@ -1,14 +1,23 @@
 {
   "name": "spidermedic",
   "version": "0.0.0",
-  "description": "A CLI tool for validating while crawling a website.",
+  "description": "A CLI tool for validating pages while crawling a website.",
   "repository": "https://github.com/beekmanlabs/node-spidermedic",
-  "keywords": ["qa", "crawl", "medic", "validation"],
+  "keywords": [
+    "qa",
+    "crawl",
+    "medic",
+    "validation"
+  ],
   "main": "lib/cli.js",
   "scripts": {
     "test": "mocha -R spec -t 5000"
   },
-  "author": "",
+  "author": {
+    "name": "Ethan Hann",
+    "email": "ethanhann@gmail.com",
+    "url": "http://ethanhann.com/"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.0.0",
@@ -24,6 +33,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "spidermedic" : "lib/cli.js"
+    "spidermedic": "lib/cli.js"
   }
 }
