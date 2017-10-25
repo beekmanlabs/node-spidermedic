@@ -1,6 +1,6 @@
 {
   "name": "spidermedic",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A CLI tool for validating pages while crawling a website.",
   "repository": "https://github.com/beekmanlabs/node-spidermedic",
   "keywords": [
